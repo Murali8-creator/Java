@@ -79,8 +79,7 @@ public class MyLinkedList<E>{
             throw new IllegalArgumentException("List Is Empty");
         }
         if (size==1){
-            E last=removeFirst();
-            return last;
+            return removeFirst();
         }
 
         Node temp=head;
@@ -109,7 +108,7 @@ public class MyLinkedList<E>{
         for (int i=1;i<position;i++){
             temp=temp.next;
         }
-        E val=(E)temp.next.value;
+        E val= temp.next.value;
         temp.next=temp.next.next;
         size--;
 
@@ -131,7 +130,7 @@ public class MyLinkedList<E>{
 
     class Node{
         private Node next;
-        private E value;
+        private final E value;
 
         Node(E value){
             this.value=value;
