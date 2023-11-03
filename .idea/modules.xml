@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaNew.iml" filepath="$PROJECT_DIR$/JavaNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyHashMaps/MyHashMaps.iml" filepath="$PROJECT_DIR$/MyHashMaps/MyHashMaps.iml" />
       <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
     </modules>
   </component>
