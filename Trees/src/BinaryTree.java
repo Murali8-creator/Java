@@ -42,6 +42,7 @@ public class BinaryTree {
 
     public void display(){
         display(this.root,"");
+
     }
     private void display(Node node,String indent){
         if (node==null)return;
