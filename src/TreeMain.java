@@ -7,6 +7,7 @@ public class TreeMain {
 
         bt.populate(scanner);
         bt.display();
+
         bt.prettyDisplay();
 
     }
