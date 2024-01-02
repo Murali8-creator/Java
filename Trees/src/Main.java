@@ -7,6 +7,7 @@ public class Main {
 
         bt.populate(scanner);
         bt.display();
+        bt.prettyDisplay();
 
     }
 }
